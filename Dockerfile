@@ -1,6 +1,14 @@
 FROM debian:latest
 
-RUN apt-get update && apt-get install -y libbz2-dev libreadline-dev libssl-dev libffi-dev curl python3 python3-pip git 
+RUN apt-get update && apt-get install -y \
+    liblzma-dev \
+    libbz2-dev \
+    libreadline-dev \
+    libssl-dev \
+    libffi-dev \
+    curl \
+    python3 python3-pip \
+    git 
 
 RUN pip install pip --upgrade
 
