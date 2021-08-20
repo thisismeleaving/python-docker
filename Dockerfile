@@ -32,4 +32,4 @@ COPY Pipfile .
 
 RUN pipenv install --dev
 
-CMD pipenv run python -c "import vaex; print('fuck pancakes, eat waffles!')"
+CMD pipenv run python -c "import vaex; print('forget pancakes, eat waffles!')"
